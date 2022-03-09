@@ -4,17 +4,22 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import HomeScreen from "./src/screens/HomeScreen";
 import Login from "./src/screens/Login";
 import Register from './src/screens/Register'
+import HomePage from "./src/screens/HomePage";
+import Bitcoin from "./src/screens/Bitcoin";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Login: Login,
-    Register: Register
+    Register: Register,
+    Bitcoin: Bitcoin
   },
+  
   {
-    initialRouteName: "Login",
+    headerMode: "none",
+    initialRouteName: "Bitcoin",
     defaultNavigationOptions: {
-      title: "Crypto",
+     
     },
   }
 );

@@ -19,16 +19,16 @@ export default function Login(props){
             {/* <Input
                 placeholder='Email'
                 leftIcon={{ type: 'font-awesome', name: 'at' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
             />
             <Input
                 placeholder='Password'
                 leftIcon={{ type: 'font-awesome', name: 'key' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
                 secureTextEntry={true}
             /> */}
-            <GetInput placeholder='Email' leftIcon={{ type: 'font-awesome', name: 'at' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={false}/>
-            <GetInput placeholder='Password' leftIcon={{ type: 'font-awesome', name: 'key' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={true}/>
+            <GetInput placeholder='Email' leftIcon={{ type: 'font-awesome', name: 'at' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={false}/>
+            <GetInput placeholder='Password' leftIcon={{ type: 'font-awesome', name: 'key' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={true}/>
             <View style={getStyles().alignButtons}>
                 <Button 
                     title={"Login"} 

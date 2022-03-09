@@ -16,32 +16,32 @@ export default function Register(props){
             {/* <Input
                 placeholder='First Name'
                 leftIcon={{ type: 'font-awesome', name: 'address-card' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
                 autoCapitalize="none"
             /> */}
-            <GetInput placeholder='First Name' leftIcon={{ type: 'font-awesome', name: 'address-card' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={false}/>
+            <GetInput placeholder='First Name' leftIcon={{ type: 'font-awesome', name: 'address-card' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={false}/>
             {/* <Input
                 placeholder='Last Name'
                 leftIcon={{ type: 'font-awesome', name: 'address-card' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
                 autoCapitalize="none"
             /> */}
-            <GetInput placeholder='Last Name' leftIcon={{ type: 'font-awesome', name: 'address-card' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={false}/>
+            <GetInput placeholder='Last Name' leftIcon={{ type: 'font-awesome', name: 'address-card' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={false}/>
             {/* <Input
                 placeholder='Email'
                 leftIcon={{ type: 'font-awesome', name: 'at' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
                 autoCapitalize="none"
             /> */}
-            <GetInput placeholder='Email' leftIcon={{ type: 'font-awesome', name: 'at' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={false}/>
+            <GetInput placeholder='Email' leftIcon={{ type: 'font-awesome', name: 'at' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={false}/>
             {/* <Input
                 placeholder='Password'
                 leftIcon={{ type: 'font-awesome', name: 'key' }}
-                style={{color: "white"}}
+                style={{color: "black"}}
                 secureTextEntry={true}
                 autoCapitalize={false}
             /> */}
-            <GetInput placeholder='Password' leftIcon={{ type: 'font-awesome', name: 'key' }} style={{color: "white"}} autoCapitalize="none" secureTextEntry={true}/>
+            <GetInput placeholder='Password' leftIcon={{ type: 'font-awesome', name: 'key' }} style={{color: "black"}} autoCapitalize="none" secureTextEntry={true}/>
             <View style={getStyles().alignButtons}>
                 <Button 
                     title={"Submit"} 
