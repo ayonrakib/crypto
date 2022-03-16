@@ -1,13 +1,11 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 import getStyles from '../styles/styles' 
 
 export default function HomePage(){
     return(
         <View style={getStyles().homePage}>
-            <Text>
-                Home page
-            </Text>
+            <Image source={require('../static/images/bitcoin.png')}></Image>
         </View>
     )
 }

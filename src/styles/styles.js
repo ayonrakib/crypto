@@ -33,7 +33,38 @@ export default function getStyles(){
         // homePage:{
         //     backgroundColor: "black"
         // }
+        container:{
+            flex: 1,
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "black"
+        },
+        coinLine:{
+            flexDirection: "row",
+            marginBottom: 20
+        },
+        coinImage:{
+            width: 30,
+            height: 30
+        },
+        coinName: {
+            marginLeft: 40,
+            alignSelf: "center",
+            color: "white"
+        },
+        coinPrice:{
+            marginLeft: 40,
+            alignSelf: "center",
+            color: "white"
+        },
+        healthBar:{
+            marginLeft: 40,
+            alignSelf: "center",
+            width: 30,
+            height: 30
+        }
     })
+
     
     return styles;
 }
