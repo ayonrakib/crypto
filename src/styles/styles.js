@@ -41,27 +41,35 @@ export default function getStyles(){
         },
         coinLine:{
             flexDirection: "row",
-            marginBottom: 20
+            marginBottom: 20,
+            justifyContent:"space-evenly"
         },
         coinImage:{
-            width: 30,
-            height: 30
+            width: 10,
+            height: 30,
+            marginRight: 70,
+            alignSelf:"center",
+            flex: 1
         },
         coinName: {
-            marginLeft: 40,
             alignSelf: "center",
-            color: "white"
+            textAlign: "left",
+            marginRight: 50,
+            color: "white",
+            flex: 1
         },
         coinPrice:{
-            marginLeft: 40,
+            marginLeft: 60,
             alignSelf: "center",
-            color: "white"
+            marginRight: 60,
+            color: "white",
+            flex: 1
         },
         healthBar:{
-            marginLeft: 40,
             alignSelf: "center",
-            width: 30,
-            height: 30
+            width: 10,
+            height: 30,
+            flex: 1
         }
     })
 

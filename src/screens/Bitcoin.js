@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
+import {Button} from 'react-native-paper';
 import getStyles from "../styles/styles";
 
 export default function Bitcoin(){
@@ -25,6 +26,11 @@ export default function Bitcoin(){
                 </Text>
                 <Image source={require('../static/images/health-bar.jpg')} style={getStyles().healthBar}></Image>
             </View>
+
+            {/* <Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>
+                Press me
+            </Button> */}
+
         </View>
 
     )
