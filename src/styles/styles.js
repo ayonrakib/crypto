@@ -37,7 +37,7 @@ export default function getStyles(){
             flex: 1,
             justifyContent: "center",
             alignItems: "center",
-            backgroundColor: "black"
+            backgroundColor: "white"
         },
         coinLine:{
             flexDirection: "row",
@@ -45,31 +45,32 @@ export default function getStyles(){
             justifyContent:"space-evenly"
         },
         coinImage:{
-            width: 10,
-            height: 30,
-            marginRight: 70,
             alignSelf:"center",
-            flex: 1
+            flex: 1,
+            alignItems: "center"
+        },
+        coinImageDimension:{
+            width: 30,
+            height: 30
         },
         coinName: {
             alignSelf: "center",
             textAlign: "left",
-            marginRight: 50,
-            color: "white",
-            flex: 1
+            color: "black",
+            flex: 1,
+            fontS
         },
         coinPrice:{
-            marginLeft: 60,
             alignSelf: "center",
-            marginRight: 60,
-            color: "white",
+            color: "black",
             flex: 1
         },
         healthBar:{
             alignSelf: "center",
             width: 10,
             height: 30,
-            flex: 1
+            flex: 1,
+            marginRight: 10
         }
     })
 

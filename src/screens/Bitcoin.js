@@ -7,23 +7,37 @@ export default function Bitcoin(){
     return(
         <View style={getStyles().container}>
             <View style={getStyles().coinLine}>
-                <Image source={require('../static/images/bitcoin.png')} style={getStyles().coinImage}></Image>
-                <Text style={getStyles().coinName}>
-                    Bitcoin
-                </Text>
-                <Text style={getStyles().coinPrice}>
-                    51000$
-                </Text>
+                <View style={getStyles().coinImage}>
+                    <Image source={require('../static/images/bitcoin.png')} style={getStyles().coinImageDimension}></Image>
+                </View>
+                
+                <View style={getStyles().coinName}>
+                    <Text>
+                        Bitcoin
+                    </Text>
+                </View>
+                <View style={getStyles().coinPrice}>
+                    <Text>
+                        51000$
+                    </Text>
+                </View>
                 <Image source={require('../static/images/health-bar.jpg')} style={getStyles().healthBar}></Image>
             </View>
             <View style={getStyles().coinLine}>
-                <Image source={require('../static/images/dogecoin.png')} style={getStyles().coinImage}></Image>
-                <Text style={getStyles().coinName}>
-                    Doge coin
-                </Text>
-                <Text style={getStyles().coinPrice}>
-                    51000$
-                </Text>
+                <View style={getStyles().coinImage}>
+                    <Image source={require('../static/images/dogecoin.png')} style={getStyles().coinImageDimension}></Image>
+                </View>
+                
+                <View style={getStyles().coinName}>
+                    <Text>
+                        Doge coin
+                    </Text> 
+                </View>
+                <View style={getStyles().coinPrice}>
+                    <Text>
+                        51000$
+                    </Text>
+                </View>
                 <Image source={require('../static/images/health-bar.jpg')} style={getStyles().healthBar}></Image>
             </View>
 
